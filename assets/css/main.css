@@ -666,7 +666,7 @@
 					}
 
 				#header nav a span a:hover:before {
-					display: none;
+					display: inline-block;
 				}
 
 /* Footer */
