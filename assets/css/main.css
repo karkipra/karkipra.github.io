@@ -665,8 +665,8 @@
 						color: #fff;
 					}
 
-				#header nav a span a:hover:before {
-					display: "inline-block";
+				#header nav a span {
+					display: none;
 				}
 
 /* Footer */
