@@ -665,7 +665,7 @@
 						color: #fff;
 					}
 
-				#header nav a span {
+				#header nav a span a:hover:before {
 					display: none;
 				}
 
