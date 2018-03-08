@@ -1,0 +1,435 @@
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+%	The MIT License (MIT)
+%
+%	Copyright (c) 2015 Jan Küster
+%
+%	Permission is hereby granted, free of charge, to any person obtaining a copy
+%	of this software and associated documentation files (the "Software"), to deal
+%	in the Software without restriction, including without limitation the rights
+%	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%	copies of the Software, and to permit persons to whom the Software is
+%	furnished to do so, subject to the following conditions:
+%	
+%	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+%	THE SOFTWARE.
+%	
+%
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+
+
+%============================================================================%
+%
+%	DOCUMENT DEFINITION
+%
+%============================================================================%
+
+%we use article class because we want to fully customize the page and dont use a cv template
+\documentclass[10pt,a4paper]{article}	
+
+
+%----------------------------------------------------------------------------------------
+%	ENCODING
+%----------------------------------------------------------------------------------------
+
+%we use utf8 since we want to build from any machine
+\usepackage[utf8]{inputenc}	
+\usepackage[yyyymmdd,hhmmss]{datetime}	
+%----------------------------------------------------------------------------------------
+%	LOGIC
+%----------------------------------------------------------------------------------------
+
+% provides \isempty test
+\usepackage{xifthen}
+
+%----------------------------------------------------------------------------------------
+%	FONT
+%----------------------------------------------------------------------------------------
+
+% some tex-live fonts - choose your own
+
+%\usepackage[defaultsans]{droidsans}
+%\usepackage[default]{comfortaa}
+%\usepackage{cmbright}
+\usepackage[default]{raleway}
+%\usepackage{fetamont}
+%\usepackage[default]{gillius}
+%\usepackage[light,math]{iwona}
+%\usepackage[thin]{roboto} 
+
+% set font default
+\renewcommand*\familydefault{\sfdefault} 	
+\usepackage[T1]{fontenc}
+
+% more font size definitions
+\usepackage{moresize}	
+\usepackage{fontawesome}
+\usepackage{hyperref}	
+
+%----------------------------------------------------------------------------------------
+%	PAGE LAYOUT  DEFINITIONS
+%----------------------------------------------------------------------------------------
+\usepackage{color}
+%debug page outer frames
+%\usepackage{showframe}			
+\definecolor{col}{RGB}{85,175,197}
+
+%define page styles using geometry
+\usepackage[a4paper]{geometry}		
+
+% for example, change the margins to 2 inches all round
+\geometry{top=1.5cm, bottom=-.6cm, left=1cm, right=1cm} 	
+
+%use customized header
+\usepackage{fancyhdr}				
+\pagestyle{fancy}
+
+%less space between header and content
+\setlength{\headheight}{-4pt}		
+
+%customize entries left, center and right
+\lhead{}
+\chead{ {\faGithub \  \href{https://github.com/karkipra} {karkipra}  $\cdot$ 
+	      \faLinkedin \ \href{https://www.linkedin.com/in/pratik-karki}{Pratik Karki} $\cdot$ 
+	       \faTwitter \ \href{https://twitter.com/Pratik_Kiwi} {@pratik\_kiwi}  $\cdot$  
+	       \faGlobe \ \textcolor{col}       {\href{http://pratikkarki.com/}{pratikkarki.com}}  $\cdot$ 
+	       \faPhone \ +1 (641) 888 0845 $\cdot$ 
+	       \faEnvelope \ \href{karkipra@grinnell.edu}{karkipra@grinnell.edu}
+	       }}
+\rhead{}
+
+
+%indentation is zero
+\setlength{\parindent}{0mm}
+
+%----------------------------------------------------------------------------------------
+%	TABLE /ARRAY DEFINITIONS
+%---------------------------------------------------------------------------------------- 
+
+%for layouting tables
+\usepackage{multicol}			
+\usepackage{multirow}
+
+%extended aligning of tabular cells
+\usepackage{array}
+
+\newcolumntype{x}[1]{%
+>{\raggedleft\hspace{0pt}}p{#1}}%
+
+
+%----------------------------------------------------------------------------------------
+%	GRAPHICS DEFINITIONS
+%---------------------------------------------------------------------------------------- 
+
+%for header image
+\usepackage{graphicx}
+
+%for floating figures
+\usepackage{wrapfig}
+\usepackage{float}
+%\floatstyle{boxed} 
+%\restylefloat{figure}
+
+%for drawing graphics		
+\usepackage{tikz}				
+\usetikzlibrary{shapes, backgrounds,mindmap, trees}
+
+
+%----------------------------------------------------------------------------------------
+%	Color DEFINITIONS
+%---------------------------------------------------------------------------------------- 
+
+
+
+%rgb(144,175,197) #90AFC5%
+%rgb(51,107,135) #336B87 %
+%rgb(42,49,50) #2A3132%
+%rgb(118,54,38) #763626%
+
+%accent color
+\definecolor{sectcol}{RGB}{85,175,197} 
+
+%dark background color
+\definecolor{bgcol}{RGB}{42,49,50} 
+
+%light background / accent color
+\definecolor{softcol}{RGB}{144,175,197} 
+
+
+%============================================================================%
+%
+%
+%	DEFINITIONS
+%
+%
+%============================================================================%
+
+%----------------------------------------------------------------------------------------
+% 	HEADER
+%----------------------------------------------------------------------------------------
+
+% remove top header line
+\renewcommand{\headrulewidth}{0pt} 
+
+%remove botttom header line
+\renewcommand{\footrulewidth}{0pt}	  	
+
+%remove pagenum
+\renewcommand{\thepage}{}	
+
+%remove section num		
+\renewcommand{\thesection}{}			
+
+%----------------------------------------------------------------------------------------
+% 	ARROW GRAPHICS in Tikz
+%----------------------------------------------------------------------------------------
+
+% a six pointed arrow poiting to the left
+\newcommand{\tzlarrow}{(0,0) -- (0.2,0) -- (0.3,0.2) -- (0.2,0.4) -- (0,0.4) -- (0.1,0.2) -- cycle;}	
+
+% include the left arrow into a tikz picture
+% param1: fill color
+%
+\newcommand{\larrow}[1]
+{\begin{tikzpicture}[scale=0.58]
+	 \filldraw[fill=#1!100,draw=#1!100!black]  \tzlarrow
+ \end{tikzpicture}
+}
+
+% a six pointed arrow poiting to the right
+\newcommand{\tzrarrow}{ (0,0.2) -- (0.1,0) -- (0.3,0) -- (0.2,0.2) -- (0.3,0.4) -- (0.1,0.4) -- cycle;}
+
+% include the right arrow into a tikz picture
+% param1: fill color
+%
+\newcommand{\rarrow}
+{\begin{tikzpicture}[scale=0.7]
+	\filldraw[fill=sectcol!100,draw=sectcol!100!black] \tzrarrow
+ \end{tikzpicture}
+}
+
+
+
+%----------------------------------------------------------------------------------------
+%	custom sections
+%----------------------------------------------------------------------------------------
+
+% create a coloured box with arrow and title as cv section headline
+% param 1: section title
+%
+\newcommand{\cvsection}[1]
+{
+\colorbox{sectcol}{\mystrut \makebox[1\linewidth][l]{
+\larrow{bgcol} \hspace{-8pt} \larrow{bgcol} \hspace{-8pt} \larrow{bgcol} \textcolor{white}{\textbf{#1}}\hspace{4pt}
+}}\\
+}
+
+%create a coloured arrow with title as cv meta section section
+% param 1: meta section title
+%
+\newcommand{\metasection}[2]
+{
+\begin{tabular*}{1\textwidth}{p{2.4cm} p{11cm}}
+\larrow{bgcol}	\normalsize{\textcolor{sectcol}{#1}}&#2\\[12pt]
+\end{tabular*}
+}
+
+%----------------------------------------------------------------------------------------
+%	 CV EVENT
+%----------------------------------------------------------------------------------------
+
+% creates a stretched box as cv entry headline followed by two paragraphs about 
+% the work you did
+% param 1:	event time i.e. 2014 or 2011-2014 etc.
+% param 2:	event name (what did you do?)
+% param 3:	institution (where did you work / study)
+% param 4:	what was your position
+% param 5:	some words about your contributions
+%
+\newcommand{\cvevent}[5]
+{
+\vspace{4pt}
+	\begin{tabular*}{1\textwidth}{p{2.3cm}  p{10.8cm} x{3.9cm}}
+ \textcolor{bgcol}{#1}& \textbf{#2} & \vspace{2.5pt}\textcolor{sectcol}{#3}
+
+	\end{tabular*}
+\vspace{-12pt}
+\textcolor{softcol}{\hrule}
+\vspace{5pt}
+	\begin{tabular*}{1\textwidth}{p{2.3cm} p{14.4cm}}
+&		 \larrow{bgcol}  #4\\[3pt]
+&		 \larrow{bgcol}  #5\\[6pt]
+	\end{tabular*}
+
+}
+
+% creates a stretched box as 
+\newcommand{\cveventmeta}[2]
+{
+	\mbox{\mystrut \hspace{87pt}\textit{#1}}\\
+	#2
+}
+
+%----------------------------------------------------------------------------------------
+% CUSTOM STRUT FOR EMPTY BOXES
+%----------------------------------------- -----------------------------------------------
+\newcommand{\mystrut}{\rule[-.3\baselineskip]{0pt}{\baselineskip}}
+
+%----------------------------------------------------------------------------------------
+% CUSTOM LOREM IPSUM
+%----------------------------------------------------------------------------------------
+\newcommand{\lorem}
+{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus.}
+
+
+
+%============================================================================%
+%
+%
+%
+%	DOCUMENT CONTENT
+%
+%
+%
+%============================================================================%
+\begin{document}
+
+
+%use our custom fancy header definitions
+\pagestyle{fancy}	
+
+
+%---------------------------------------------------------------------------------------
+%	TITLE HEADLINE
+%----------------------------------------------------------------------------------------
+\vspace{-20.55pt}
+
+% use this for multiple words like working titles etc.
+%\hspace{-0.25\linewidth}\colorbox{bgcol}{\makebox[1.5\linewidth][c]{\hspace{46pt}\HUGE{\textcolor{white}{\textsc{Jan Küster}} } \textcolor{sectcol}{\rule[-1mm]{1mm}{0.9cm}} \parbox[b]{5cm}{   \large{ \textcolor{white}{{IT Consultant}}}\\
+% \large{ \textcolor{white}{{Resume}}}}
+%}}
+
+% use this for single words, e.g. CV or RESUME etc.
+\hspace{-0.25\linewidth}\colorbox{bgcol}{\makebox[1.5\linewidth][c]{\HUGE{\textcolor{white}{\textsc{Pratik Karki}} } \textcolor{sectcol}{\rule[-1mm]{1mm}{0.9cm}} \HUGE{\textcolor{white}{\textsc{CV}} } }}
+
+
+%----------------------------------------------------------------------------------------
+%	HEADER IMAGE
+%----------------------------------------------------------------------------------------
+
+\begin{figure}[H]
+\begin{flushright}
+	\includegraphics[trim= 3 3 3 3,clip,width=0.2\linewidth]{myfoto.png}	%trimming relative to image size!
+\end{flushright}
+\end{figure}
+
+%---------------------------------------------------------------------------------------
+%	QR CODE (optional)
+%----------------------------------------------------------------------------------------
+%\vspace{-250pt}
+%\hspace{0.75\linewidth}
+%\includegraphics[width=103pt]{qrcode}
+%\normalsize
+%\vspace{88pt}
+
+%---------------------------------------------------------------------------------------
+%	META SECTION
+%----------------------------------------------------------------------------------------
+
+\vspace{-95pt}
+
+\metasection{Status:}{Computer Science and Economics Major $\cdot$ Grinnell College}
+\metasection{Address:}{1115 8th Avenue, Box 3716, Grinnell, IA 50112 -- USA} 
+\metasection{Languages:}{Nepali (Native) $\cdot$ English (Fluent) $\cdot$ Hindi (Advanced) $\cdot$ Urdu (Advanced)}
+\metasection{Computer:}{C $\cdot$ Java $\cdot$ Ruby on Rails $\cdot$ SCHEME $\cdot$ \LaTeX $\cdot$ Python $\cdot$ Javascript $\cdot$ CSS $\cdot$ HTML $\cdot$ Microsoft Office $\cdot$ Adobe Suite}
+
+
+%---------------------------------------------------------------------------------------
+%	SUMMARAY (optional)
+%----------------------------------------------------------------------------------------
+
+%\cvsection{Summary}\\
+%Digital media graduate with four years project experience in the field of technology based assessment. Specialized in development of test-scenario engines and innovative, rich media item formats. Master studies focused on teams from different disciplines and cultural backgrounds on solutions for complex problems.  Prior knowledge has been collected in he field of usability / accessibility during bachelor studies.\\
+
+%============================================================================%
+%
+%	CV SECTIONS AND EVENTS (MAIN CONTENT)
+%
+%============================================================================%
+
+%---------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\cvsection{Education}
+
+%
+\cvevent{2020 / 05}{B.A. in Arts}{Grinnell College}{Dean's List - Fall Semester 2016}{Coursework: Team Software Development, Discrete Structures, Microeconomic Analysis}
+
+%\textcolor{softcol}{\hrule}
+
+%
+\cvevent{2015 / 05}{GCE- A Levels}{Rato Bangala School}{President of Business Club $\cdot$ Vice-President of Interact Club}{Mathematics (A*), Accounting (A), Business Studies (A), Economics (A), English (A)}
+
+%\textcolor{softcol}{\hrule}
+
+%---------------------------------------------------------------------------------------
+%	EXPERIENCE SECTION
+%--------------------------------------------------------------------------------------
+\cvsection{Experience}
+
+\cvevent{2017/08-- Present }{Interlibrary Loan Staff Member}{Grinnell College Libraries}{ Facilitated the process of loaning and borrowing books, journals and media} {Corresponded with library supervisors regarding transactions}
+
+%\textcolor{softcol}{\hrule}
+
+%
+\cvevent{2017 / 06}{Visual Designer}{Creasion Nepal}{Developed the organization website and designed flyers and posters for events}{Hosted a talk - "Importance of Computer Science for Nepali Students"}
+
+%\textcolor{softcol}{\hrule}
+
+%
+\cvevent{2017 / 03}{Social Media Curator}{Mothers on the Frontline}{Updated the social media profile, maintained blog posts, and improved website design}{Transcribed audio files of interviews with mothers of children with intellectual disabilities}
+
+%\textcolor{softcol}{\hrule}
+
+%
+\cvevent{2015 -  2016 }{Intern}{Rato Bangala Foundation}{Traveled, worked, and surveyed students and teachers in many rural schools of Nepal}{Worked in customer service by setting up stalls and selling children's books for charity}
+
+%---------------------------------------------------------------------------------------
+%	Extra Curricular
+%--------------------------------------------------------------------------------------
+\cvsection{Extra-Curricular}
+
+\cvevent{2017}{Wide Receiver}{Grinnell College Football Team}{Represented the International Athletes and Allies (IAA) for the Grinnell Football Team}{Participated with coaching staff regularly to increase physical and mental cohesiveness}
+
+%\textcolor{softcol}{\hrule}
+
+%
+\cvevent{2014}{Teaching Volunteer}{Dailekh, Nepal}{Tutored students in Mathematics and Science in the village of Dailekh}{Facilitated classes on social awareness and civic duties for both students and parents}
+
+%\textcolor{softcol}{\hrule}
+
+%-------------------------------------------------------------------------------------------------
+%	ARTIFICIAL FOOTER (fancy footer cannot exceed linewidth) 
+%--------------------------------------------------------------------------------------------------
+
+\null
+\vspace*{\fill}
+\hspace{-0.3\linewidth}\colorbox{bgcol}{\makebox[1.95\linewidth][c]{\mystrut \textcolor{white}{Last Updated: \today} $\cdot$ \hspace{-0.6\linewidth}\textcolor{white}{\textcopyright \ Pratik Karki}}} %at \currenttime (if you want the time)
+
+
+
+
+%============================================================================%
+%
+%
+%
+%	DOCUMENT END
+%
+%
+%
+%============================================================================%
+\end{document}
