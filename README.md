@@ -1,5 +1,4 @@
 # karkipra.github.io
 
-Hello, World!
-
-Welcome to my website.
+Personal Website
+http://pratikkarki.com/
