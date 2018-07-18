@@ -233,8 +233,8 @@
 %
 \newcommand{\metasection}[2]
 {
-\begin{tabular*}{1\textwidth}{p{2.4cm} p{11cm}}
-\larrow{bgcol}	\normalsize{\textcolor{sectcol}{#1}}&#2\\[12pt]
+\begin{tabular*}{1\textwidth}{p{2.3cm} p{11cm}} 
+\hspace{0.4cm}\larrow {bgcol}	\normalsize{\textcolor{sectcol}{#1}}&#2\\[6pt]
 \end{tabular*}
 }
 
@@ -252,17 +252,63 @@
 %
 \newcommand{\cvevent}[5]
 {
+\vspace{8pt}
+	\begin{tabular*}{1\textwidth}{p{2.3cm}  p{10.8cm} x{3.9cm}}
+ \textcolor{bgcol}{#1}& \textbf{#2} & \vspace{2.5pt}\textcolor{sectcol}{#3}
+
+	\end{tabular*}
+\vspace{-14pt}
+\textcolor{softcol}{\hrule}
+\vspace{5pt}
+	\begin{tabular*}{1\textwidth}{p{0cm} p{18cm}}
+&		 \larrow{bgcol}  #4\\[3pt]
+&		 \larrow{bgcol}  #5\\[6pt]
+
+	\end{tabular*}
+
+}
+
+\newcommand{\cveventone}[4] %1 box
+{
+
+%\textcolor{softcol}{\hrule}
+\vspace{4pt}
+	\begin{tabular*}{1\textwidth}{p{0cm} p{18cm}}
+&		 \larrow{bgcol}  #4\\[3pt]
+
+	\end{tabular*}
+
+}
+
+\newcommand{\cveventfour}[7] %4 boxes
+{
 \vspace{4pt}
 	\begin{tabular*}{1\textwidth}{p{2.3cm}  p{10.8cm} x{3.9cm}}
  \textcolor{bgcol}{#1}& \textbf{#2} & \vspace{2.5pt}\textcolor{sectcol}{#3}
 
 	\end{tabular*}
-\vspace{-12pt}
+\vspace{-14pt}
 \textcolor{softcol}{\hrule}
-\vspace{5pt}
-	\begin{tabular*}{1\textwidth}{p{2.3cm} p{14.4cm}}
+\vspace{4pt}
+	\begin{tabular*}{1\textwidth}{p{0cm} p{18cm}}
 &		 \larrow{bgcol}  #4\\[3pt]
-&		 \larrow{bgcol}  #5\\[6pt]
+&		 \larrow{bgcol}  #5\\[3pt]
+&		 \larrow{bgcol}  #6\\[3pt]
+&		 \larrow{bgcol}  #7\\[6pt]
+
+	\end{tabular*}
+
+}
+
+\newcommand{\cveventskills}[6]
+{
+%\textcolor{softcol}{\hrule}
+\vspace{5pt}
+	\begin{tabular*}{1\textwidth}{p{0cm} p{18cm}}
+&		 \larrow{bgcol}  #4\\[3pt]
+&		 \larrow{bgcol}  #5\\[3pt]
+&		 \larrow{bgcol}  #6\\[6pt]
+
 	\end{tabular*}
 
 }
@@ -306,7 +352,7 @@
 %---------------------------------------------------------------------------------------
 %	TITLE HEADLINE
 %----------------------------------------------------------------------------------------
-\vspace{-20.55pt}
+\vspace{-20.55cm}
 
 % use this for multiple words like working titles etc.
 %\hspace{-0.25\linewidth}\colorbox{bgcol}{\makebox[1.5\linewidth][c]{\hspace{46pt}\HUGE{\textcolor{white}{\textsc{Jan Küster}} } \textcolor{sectcol}{\rule[-1mm]{1mm}{0.9cm}} \parbox[b]{5cm}{   \large{ \textcolor{white}{{IT Consultant}}}\\
@@ -314,38 +360,21 @@
 %}}
 
 % use this for single words, e.g. CV or RESUME etc.
+
 \hspace{-0.25\linewidth}\colorbox{bgcol}{\makebox[1.5\linewidth][c]{\HUGE{\textcolor{white}{\textsc{Pratik Karki}} } \textcolor{sectcol}{\rule[-1mm]{1mm}{0.9cm}} \HUGE{\textcolor{white}{\textsc{CV}} } }}
 
-
-%----------------------------------------------------------------------------------------
-%	HEADER IMAGE
-%----------------------------------------------------------------------------------------
-
-\begin{figure}[H]
-\begin{flushright}
-	\includegraphics[trim= 3 3 3 3,clip,width=0.2\linewidth]{myfoto.png}	%trimming relative to image size!
-\end{flushright}
-\end{figure}
-
-%---------------------------------------------------------------------------------------
-%	QR CODE (optional)
-%----------------------------------------------------------------------------------------
-%\vspace{-250pt}
-%\hspace{0.75\linewidth}
-%\includegraphics[width=103pt]{qrcode}
-%\normalsize
-%\vspace{88pt}
 
 %---------------------------------------------------------------------------------------
 %	META SECTION
 %----------------------------------------------------------------------------------------
 
-\vspace{-95pt}
+\vspace{10pt}
 
-\metasection{Status:}{Grinnell College $\cdot$ B.A. in Computer Science and Economics}
-\metasection{Address:}{1115 8th Avenue, Box 3716, Grinnell, Iowa 50112 -- USA} 
-\metasection{Languages:}{Nepali (Native) $\cdot$ English (Fluent) $\cdot$ Hindi (Advanced) $\cdot$ Urdu (Advanced)}
-\metasection{Computer:}{C $\cdot$ Java $\cdot$ Ruby on Rails $\cdot$ SCHEME $\cdot$ \LaTeX $\cdot$ Python $\cdot$ Javascript $\cdot$ CSS $\cdot$ HTML $\cdot$ Microsoft Office $\cdot$ Adobe Suite}
+\metasection{Status:}{B.A. in Computer Science and Economics @ \textcolor{col}{\href{http://www.grinnell.edu/}{Grinnell College}}}
+\metasection{Address:}{1115 8th Avenue \# 3716, Grinnell, IA 50112, United States of America} 
+%\metasection{Languages:}{Nepali (Native) $\cdot$ English (Fluent) $\cdot$ Hindi (Advanced) $\cdot$ Urdu (Advanced)}
+%\metasection{Languages:}{C $\cdot$ Java $\cdot$ Ruby on Rails $\cdot$ SCHEME $\cdot$ \LaTeX $\cdot$ Python $\cdot$ Javascript $\cdot$ CSS $\cdot$ HTML $\cdot$ Microsoft Office $\cdot$ Adobe Suite}
+%\metasection{Proficient:}{something here}
 
 
 %---------------------------------------------------------------------------------------
@@ -367,12 +396,14 @@
 \cvsection{Education}
 
 %
-\cvevent{2020 / 05}{B.A. in Computer Science and Economics}{Grinnell College}{Dean's List - Fall Semester 2016}{Coursework: Team Software Development, Discrete Structures, Microeconomic Analysis}
+\cvevent{Exp. 2020}{B.A. in Computer Science and Economics}{Grinnell College}
+{Dean's List: \ \  \ Fall Semester 2016}
+{Coursework: Team Software Development, Discrete Structures, Microeconomic Analysis, Kiswahili I}
 
 %\textcolor{softcol}{\hrule}
 
 %
-\cvevent{2015 / 05}{GCE - A Levels}{Rato Bangala School}{President of Business Club $\cdot$ Vice-President of Interact Club}{Mathematics (A*), Accounting (A), Business Studies (A), Economics (A), English (A)}
+%\cvevent{2015 / 05}{GCE - A Levels}{Rato Bangala School}{President of Business Club $\cdot$ Vice-President of Interact Club}{Mathematics (A*), Accounting (A), Business Studies (A), Economics (A), English (A)}
 
 %\textcolor{softcol}{\hrule}
 
@@ -381,36 +412,75 @@
 %--------------------------------------------------------------------------------------
 \cvsection{Experience}
 
-\cvevent{2017/08-- Present }{Interlibrary Loan Staff Member}{Grinnell College Libraries}{ Facilitated the process of loaning and borrowing books, journals and media} {Corresponded with library supervisors regarding transactions}
+\cvevent{2018/05--07}{Local Sightings Intern}
+{\href{https://nwfilmforum.org/}{Northwest Film Forum}}
+{Redeveloped the organizational website and archived past film festivals with an improved user interface} 
+{Assisted in marketing, outreach, and statistical analysis of audience groups in the Pacific Northwest Region}
 
 %\textcolor{softcol}{\hrule}
 
 %
-\cvevent{2017 / 06}{Visual Designer}{Creasion Nepal}{Developed the organization website and designed flyers and posters for events}{Hosted a talk - "Importance of Computer Science for Nepali Students"}
+\cvevent{2017--Present}{Android Developer and UX Design Trainee}
+{\href{https://appdev.grinnell.edu/}{Grinnell AppDev}}
+{Designed, developed, and maintained five Android applications with over 1,000 daily users}
+{Enhanced user satisfaction and loyalty by improving the user interfaces for the apps created}
 
 %\textcolor{softcol}{\hrule}
 
 %
-\cvevent{2017 / 03}{Social Media Curator}{Mothers on the Frontline}{Updated the social media profile, maintained blog posts, and improved website design}{Transcribed audio files of interviews with mothers of children with intellectual disabilities}
+\cvevent{2017/06--08}{Front End Developer}{\href{http://creasion.org/}{Creasion Nepal}}
+{Retooled the website interface to include blog and video options and a login page  }
+{Initiated work on a Java based Android mobile app with news and blog sections}
 
 %\textcolor{softcol}{\hrule}
 
 %
-\cvevent{2015 -  2016 }{Intern}{Rato Bangala Foundation}{Traveled, worked, and surveyed students and teachers in many rural schools of Nepal}{Worked in customer service by setting up stalls and selling children's books for charity}
+\cvevent{2015--2016 }{Service Learning Intern}{\href{http://rbf.org.np/}{R.B. Foundation}}
+{Traveled, worked, and surveyed students and teachers in many rural schools of Nepal post 2015 earthquake}
+{Spearheaded initiative to develop new website with application forms and established a social media presence}
 
 %---------------------------------------------------------------------------------------
-%	Extra Curricular
+%	Projects
 %--------------------------------------------------------------------------------------
-\cvsection{Extra-Curricular}
+\cvsection{Projects \href{https://github.com/karkipra}{(Available on Github)}}
 
-\cvevent{2017}{Wide Receiver}{Grinnell College Football Team}{Represented the International Athletes and Allies (IAA) for the Grinnell Football Team}{Participated with coaching staff regularly to increase physical and mental cohesiveness}
+\cveventfour{2018/01--05}{\href{http://localfoodsconnection.herokuapp.com/}{Local Foods Connection}}{Team Software Dev.}
+{Collaborated with a team to construct a farm search function and admin login for the organization's website }
+{Assigned Lead UI/UX Design and improved the overall Javascript design along with refactoring legacy code}
+{Aided in developing a new database for user profiles and added supplementary search options}
+{Streamlined the SQL structure and successfully deployed the website on Heroku}
 
-%\textcolor{softcol}{\hrule}
+\cveventfour{2017/08-12}{Programs}{O.O. Design/Algorithms}
+{Grin-compression: File compression using Huffman trees for a lossless compression
+algorithm}
+{Sounds of Sorting: A Java visualizer and audibilizer for six sorting algorithms}
+{Learning-genie: A persistent program that plays a guessing game with the user and
+learns from its mistakes, building a database of questions and guesses along the way}
+{Alife Simulation: An artificial life simulation that visualizes the cooperation between bacteria by emulating real-life preconditions}
 
-%
-\cvevent{2014}{Teaching Volunteer}{Dailekh, Nepal}{Tutored students in Mathematics and Science in the village of Dailekh}{Facilitated classes on social awareness and civic duties for both students and parents}
 
-%\textcolor{softcol}{\hrule}
+%---------------------------------------------------------------------------------------
+%	Skills
+%--------------------------------------------------------------------------------------
+\cvsection{Computing Skills}
+
+\cveventskills{}{Proficient}{}
+{Proficient: \ \ \ \ \ \ \  Java $\cdot$ C $\cdot$ \LaTeX $\cdot$ Scheme $\cdot$ Ruby on Rails $\cdot$ CSS $\cdot$ HTML
+					$\cdot$ Android Studio \& NDK $\cdot$ Ruby}
+{Intermediate:  \ Git $\cdot$ Unix/Linux $\cdot$ Javascript $\cdot$ C$++$ $\cdot$ Adobe Creative Suite $\cdot$ Final Cut Pro}
+{Novice:  \ \ \ \ \ \ \ \ \ \  \ SQL $\cdot$ C\# $\cdot$ Python $\cdot$ Gallina $\cdot$ PHP $\cdot$ Swift}
+
+%---------------------------------------------------------------------------------------
+%	Other Interests
+%--------------------------------------------------------------------------------------
+\cvsection{Other Interests}
+
+\cveventone{}{Proficient}{}
+{Hiking $\cdot$ Football $\cdot$ Wilderness $\cdot$ Filmmaking $\cdot$ Volunteering $\cdot$ Sketching $\cdot$ Guitar }
+
+
+
+
 
 %-------------------------------------------------------------------------------------------------
 %	ARTIFICIAL FOOTER (fancy footer cannot exceed linewidth) 
@@ -418,7 +488,7 @@
 
 \null
 \vspace*{\fill}
-\hspace{-0.3\linewidth}\colorbox{bgcol}{\makebox[1.95\linewidth][c]{\mystrut \textcolor{white}{Last Updated: \today} $\cdot$ \hspace{-0.6\linewidth}\textcolor{white}{\textcopyright \ Pratik Karki}}} %at \currenttime (if you want the time)
+\hspace{-0.3\linewidth}\colorbox{bgcol}{\makebox[1.95\linewidth][c]{\mystrut \textcolor{white}{Last Updated: \today} $\cdot$ \hspace{-0.62\linewidth}\textcolor{white}{\textcopyright \ Pratik Karki}}} %at \currenttime (if you want the time)
 
 
 
