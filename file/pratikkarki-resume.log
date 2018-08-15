@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.22)  14 AUG 2018 23:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.22)  15 AUG 2018 00:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1341,14 +1341,14 @@ e
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
-* v-part:(T,H,B)=(42.67912pt, 819.43954pt, -17.07182pt)
+* v-part:(T,H,B)=(51.21504pt, 810.90363pt, -17.07182pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=540.60239pt
-* \textheight=819.43954pt
+* \textheight=810.90363pt
 * \oddsidemargin=-43.81725pt
 * \evensidemargin=-43.81725pt
-* \topmargin=-66.59087pt
+* \topmargin=-58.05495pt
 * \headheight=-4.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -1436,6 +1436,8 @@ Underfull \hbox (badness 10000) in alignment at lines 439--439
 [][][] 
  []
 
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/it' will be
+(Font)              scaled to size 10.0pt on input line 439.
 
 Underfull \hbox (badness 10000) in alignment at lines 439--439
 [][] 
@@ -1452,85 +1454,80 @@ Underfull \hbox (badness 10000) in alignment at lines 448--448
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 455--455
+Underfull \hbox (badness 10000) in alignment at lines 456--456
 [][][] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 455--455
+Underfull \hbox (badness 10000) in alignment at lines 456--456
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 463--463
+Underfull \hbox (badness 10000) in alignment at lines 465--465
 [][][] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 463--463
+Underfull \hbox (badness 10000) in alignment at lines 465--465
 [][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 468--469
+Overfull \hbox (6.0pt too wide) in paragraph at lines 470--471
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 468--469
+Underfull \hbox (badness 10000) in paragraph at lines 470--471
 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 474--474
+Underfull \hbox (badness 10000) in alignment at lines 476--476
 [][][] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 474--474
+Underfull \hbox (badness 10000) in alignment at lines 476--476
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 481--481
+Underfull \hbox (badness 10000) in alignment at lines 483--483
 [][][] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 481--481
+Underfull \hbox (badness 10000) in alignment at lines 483--483
 [][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 487--488
+Overfull \hbox (6.0pt too wide) in paragraph at lines 489--490
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 487--488
+Underfull \hbox (badness 10000) in paragraph at lines 489--490
 
  []
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 493.
+(Font)              scaled to size 7.0pt on input line 495.
 
-Underfull \hbox (badness 10000) in alignment at lines 493--493
+Underfull \hbox (badness 10000) in alignment at lines 495--495
 [][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 498--499
+Overfull \hbox (6.0pt too wide) in paragraph at lines 500--501
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 498--499
+Underfull \hbox (badness 10000) in paragraph at lines 500--501
 
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 501--501
-[][] 
  []
 
 
@@ -1538,25 +1535,30 @@ Underfull \hbox (badness 10000) in alignment at lines 503--503
 [][] 
  []
 
+
+Underfull \hbox (badness 10000) in alignment at lines 505--505
+[][] 
+ []
+
 LaTeX Font Info:    Try loading font information for OMS+Raleway-TLF on input l
-ine 517.
-LaTeX Font Info:    No file OMSRaleway-TLF.fd. on input line 517.
+ine 519.
+LaTeX Font Info:    No file OMSRaleway-TLF.fd. on input line 519.
 
 LaTeX Font Warning: Font shape `OMS/Raleway-TLF/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead on input line 517.
+(Font)              using `OMS/cmsy/m/n' instead on input line 519.
 
 
-Overfull \hbox (357.38824pt too wide) in paragraph at lines 517--518
-[] [][][][][][] 
+Overfull \hbox (357.38824pt too wide) in paragraph at lines 519--522
+[] [][][][][][]
  []
 
 LaTeX Font Info:    Try loading font information for U+fontawesomethree on inpu
-t line 531.
+t line 535.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
 File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
 )
 
-Package xcolor Warning: Incompatible color definition on input line 531.
+Package xcolor Warning: Incompatible color definition on input line 535.
 
 
 Package Fancyhdr Warning: \headheight is too small (-4.0pt): 
@@ -1570,12 +1572,12 @@ Overfull \vbox (4.0pt too high) has occurred while \output is active []
  [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 531.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 531.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 535.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 535.
 
 (./pratikkarki-resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 531.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 531.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 535.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 535.
 Package rerunfilecheck Info: File `pratikkarki-resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1584,11 +1586,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 22069 strings out of 492995
- 426588 string characters out of 6132704
- 556273 words of memory out of 5000000
- 25191 multiletter control sequences out of 15000+600000
- 72249 words of font info for 27 fonts, out of 8000000 for 9000
+ 22072 strings out of 492995
+ 426658 string characters out of 6132704
+ 556256 words of memory out of 5000000
+ 25192 multiletter control sequences out of 15000+600000
+ 86754 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,11n,69p,1000b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/raleway/a_bzmckq.enc}{/us
@@ -1598,13 +1600,14 @@ r/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.
 pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/impallari/raleway/Raleway-B
 old.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/impallari/raleway/Ralew
-ay-Regular.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb>
-Output written on pratikkarki-resume.pdf (1 page, 77398 bytes).
+ay-Italic.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/impallari/raleway
+/Raleway-Regular.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb>
+Output written on pratikkarki-resume.pdf (1 page, 96048 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 61 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
