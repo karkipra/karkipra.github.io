@@ -232,9 +232,9 @@
 % param 1: meta section title
 %
 \newcommand{\metasection}[2]
-{
-\begin{tabular*}{1\textwidth}{p{2.3cm} p{15cm}} 
-\hspace{0.4cm}\larrow {bgcol}	\normalsize{\textcolor{sectcol}{#1}}&#2\\[3pt]
+{ \hspace{2.4cm}
+\begin{tabular*}{1\textwidth}{p{2.3cm} p{15cm}}
+	\normalsize{\textcolor{sectcol}{#1}}&#2\\[-8pt]
 \end{tabular*}
 }
 
@@ -254,7 +254,7 @@
 {
 \vspace{4pt}
 	\begin{tabular*}{1\textwidth}{p{2.3cm}  p{8.4cm} x{7cm}} %original is 2.3, 10.8, 3.9
- \textcolor{bgcol}{#1}& \textbf{#2} & \vspace{2.5pt}\textcolor{sectcol}{#3}
+ \textcolor{bgcol}{#1}& \textbf{#2} & \vspace{2.5pt} \textbf{\textcolor{sectcol}{#3}}
 
 	\end{tabular*}
 \vspace{-14pt}
@@ -272,7 +272,7 @@
 {
 \vspace{4pt}
 	\begin{tabular*}{1\textwidth}{p{2.3cm}  p{8.4cm} x{7cm}} %original is 2.3, 10.8, 3.9
- \textcolor{bgcol}{#1}& \textbf{#2} & \vspace{2.5pt}\textcolor{sectcol}{#3}
+ \textcolor{bgcol}{#1}& \textbf{#2} & \vspace{2.5pt}  \textbf{\textcolor{sectcol}{#3}}
 
 	\end{tabular*}
 \vspace{-14pt}
@@ -305,7 +305,7 @@
 {
 \vspace{4pt}
 	\begin{tabular*}{1\textwidth}{p{2.3cm}  p{8.4cm} x{7cm}}
- \textcolor{bgcol}{#1}& \textbf{#2} & \vspace{2.5pt}\textcolor{sectcol}{#3}
+ \textcolor{bgcol}{#1}& \textbf{#2} & \vspace{2.5pt}  \textbf{\textcolor{sectcol}{#3}}
 
 	\end{tabular*}
 \vspace{-14pt}
@@ -382,17 +382,17 @@
 
 % use this for single words, e.g. CV or RESUME etc.
 
-\hspace{-0.25\linewidth}\colorbox{bgcol}{\makebox[1.5\linewidth][c]{\HUGE{\textcolor{white}{\textsc{Pratik Karki}} } \textcolor{sectcol}{\rule[-1mm]{1mm}{0.9cm}} \HUGE{\textcolor{white}{\textsc{CV}} } }}
+\hspace{-0.25\linewidth}\colorbox{bgcol}{\makebox[1.5\linewidth][c]
+{\HUGE{\textcolor{white}{\textsc{Pratik Karki}} } \textcolor{sectcol}{\rule[-1mm]{1mm}{0.9cm}} \HUGE{\textcolor{white}{\textsc{R\'esum\'e}} } }}
 
 
 %---------------------------------------------------------------------------------------
 %	META SECTION
 %----------------------------------------------------------------------------------------
 
-\vspace{10pt}
+\vspace{6pt}
 
-\metasection{Status:}{B.A. in Computer Science and Economics @ \textcolor{col}{\href{http://www.grinnell.edu/}{Grinnell College}}}
-\metasection{Address:}{1115 8th Avenue \# 3716, Grinnell, IA 50112, United States of America} 
+\metasection{}{\faMapMarker \ 1115 8th Avenue \# 3716, Grinnell, IA 50112, U.S.A.} 
 %\metasection{Languages:}{Nepali (Native) $\cdot$ English (Fluent) $\cdot$ Hindi (Advanced) $\cdot$ Urdu (Advanced)}
 %\metasection{Languages:}{C $\cdot$ Java $\cdot$ Ruby on Rails $\cdot$ SCHEME $\cdot$ \LaTeX $\cdot$ Python $\cdot$ Javascript $\cdot$ CSS $\cdot$ HTML $\cdot$ Microsoft Office $\cdot$ Adobe Suite}
 %\metasection{Proficient:}{something here}
@@ -437,6 +437,7 @@
 {\href{https://nwfilmforum.org/}{Northwest Film Forum, Seattle, WA}}
 {Redeveloped the organizational website and archived past film festivals with an improved user interface} 
 {Systematized a statistical analysis and tracking framework using Tableau to assess the demographics of the 5,000$+$ yearly customers in the Pacific Northwest Region}
+
 
 %\textcolor{softcol}{\hrule}
 
@@ -494,10 +495,13 @@ algorithm}
 %---------------------------------------------------------------------------------------
 %	Other Interests
 %--------------------------------------------------------------------------------------
-\cvsection{Other Interests}
+\cvsection{Miscellanous }
 
 \cveventone{}{Proficient}{}
-{Hiking $\cdot$ Wilderness $\cdot$ Filmmaking $\cdot$ Volunteering $\cdot$ Sketching $\cdot$ Guitar $\cdot$ College Football }
+{Languages: \ \ \  Nepali (Native) $\cdot$ English (Fluent) $\cdot$ Hindi (Fluent) $\cdot$ Spanish (Basic)}
+\cveventone{}{Proficient}{}
+{Hobbies: \ \ \ \ \ \ \ \  Hiking $\cdot$ Wilderness $\cdot$ Filmmaking $\cdot$ Volunteering $\cdot$ Sketching $\cdot$ Guitar $\cdot$ College Football }
+
 %{Grinnell College Football: (Wide Receiver) Participated with coaching staff on an on-going basis to increase physical and mental cohesiveness and represented International Athletes \& Allies (IAA)}
 
 
