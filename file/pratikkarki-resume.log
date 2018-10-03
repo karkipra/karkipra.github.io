@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.22)  20 SEP 2018 14:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.22)  2 OCT 2018 17:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1588,7 +1588,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  22072 strings out of 492995
  426658 string characters out of 6132704
- 556306 words of memory out of 5000000
+ 556301 words of memory out of 5000000
  25192 multiletter control sequences out of 15000+600000
  86754 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1604,7 +1604,7 @@ ay-Italic.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/impallari/raleway
 /Raleway-Regular.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmsy10.pfb>
-Output written on pratikkarki-resume.pdf (1 page, 96040 bytes).
+Output written on pratikkarki-resume.pdf (1 page, 95707 bytes).
 PDF statistics:
  61 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream
