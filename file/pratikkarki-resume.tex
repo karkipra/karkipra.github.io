@@ -59,7 +59,7 @@
 \usepackage[a4paper]{geometry}		
 
 % for example, change the margins to 2 inches all round
-\geometry{top=1.4cm, bottom=-.6cm, left=1cm, right=1cm} 	
+\geometry{top=1.0cm, bottom=-.6cm, left=1cm, right=1cm} 	
 
 %use customized header
 \usepackage{fancyhdr}				
@@ -284,6 +284,8 @@
 }
 
 
+
+
 \newcommand{\cveventone}[4] %1 box
 {
 
@@ -312,6 +314,25 @@
 &		 \larrow{bgcol}  #5\\[3pt]
 &		 \larrow{bgcol}  #6\\[3pt]
 &		 \larrow{bgcol}  #7\\[6pt]
+
+	\end{tabular*}
+
+}
+
+\newcommand{\cveventprojthree}[6]
+{
+\vspace{0pt}
+	\begin{tabular*}{1\textwidth}{p{1cm}  p{8.4cm} x{8.3cm}} %original is 2.3, 10.8, 3.9
+ \textcolor{bgcol}{#1}& \textbf{#2} & \vspace{2.5pt}  \textbf{\textcolor{sectcol}{#3}}
+
+	\end{tabular*}
+\vspace{-14pt}
+\textcolor{softcol}{\hrule}
+\vspace{8pt}
+	\begin{tabular*}{1\textwidth}{p{0cm} p{18cm}}
+&		 \larrow{bgcol}  #4\\[3pt]
+&		 \larrow{bgcol}  #5\\[3pt]
+&		 \larrow{bgcol}  #6\\[6pt]
 
 	\end{tabular*}
 
@@ -514,11 +535,15 @@
 %--------------------------------------------------------------------------------------
 \cvsection{Projects \href{https://github.com/karkipra}{(Available on Github)}}
 
-\cveventprojone{}{Sports Doc}{\href{https://www.ait-budapest.com/}{UX Design, AIT-Budapest, Hungary}}
-{Researched the best UX for a cross-platform mobile application built for sports injury rehabilitation.}
-{Built a high-fidelity working prototype using Flinto and conducted Wizard of Oz prototyping.}
+\cveventprojthree{}{Mobile Applications}{}
+{Minesweeper: Android application that implements the popular game \textit{Minesweeper} with difficulty options.}
+{Attention Seeker: Cross platform iOS/Android application built using Visual Studio that implements a feature 
 
-\cveventprojfour{}{Object Oriented Programming \& Data Structures}{Grinnell College, IA}
+
+\ \ \ \ \ \ \ \ depicted in the popular Netflix series \textit{Black Mirror}.}
+{AndWallet: Income and expenditure tracking Android application with persistent storage feature using Room.}
+
+\cveventprojfour{}{Object Oriented Programming \& Data Structures}{}
 {Grin-compression: File compression using \textit{Huffman trees} for a lossless compression
 algorithm.}
 {Sounds of Sorting: A sorting program which visualizes six sorting algorithms with piano notes as indicators.}

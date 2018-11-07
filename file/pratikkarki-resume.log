@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.22)  6 NOV 2018 17:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.22)  7 NOV 2018 11:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1251,39 +1251,39 @@ s.code.tex
 )) (./pratikkarki-resume.aux)
 \openout1 = `pratikkarki-resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 382.
-LaTeX Font Info:    ... okay on input line 382.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 382.
-LaTeX Font Info:    ... okay on input line 382.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 382.
-LaTeX Font Info:    ... okay on input line 382.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 382.
-LaTeX Font Info:    ... okay on input line 382.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 382.
-LaTeX Font Info:    ... okay on input line 382.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 382.
-LaTeX Font Info:    ... okay on input line 382.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 382.
-LaTeX Font Info:    Try loading font information for LY1+ptm on input line 382.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 403.
+LaTeX Font Info:    ... okay on input line 403.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 403.
+LaTeX Font Info:    ... okay on input line 403.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 403.
+LaTeX Font Info:    ... okay on input line 403.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 403.
+LaTeX Font Info:    ... okay on input line 403.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 403.
+LaTeX Font Info:    ... okay on input line 403.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 403.
+LaTeX Font Info:    ... okay on input line 403.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 403.
+LaTeX Font Info:    Try loading font information for LY1+ptm on input line 403.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/ly1/ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 382.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 382.
-LaTeX Font Info:    ... okay on input line 382.
+LaTeX Font Info:    ... okay on input line 403.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 403.
+LaTeX Font Info:    ... okay on input line 403.
 LaTeX Font Info:    Try loading font information for T1+Raleway-TLF on input li
-ne 382.
+ne 403.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/raleway/T1Raleway-TLF.fd
 File: T1Raleway-TLF.fd 2014/07/28 (autoinst) Font definitions for T1/Raleway-TL
 F.
 )
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 382.
+(Font)              scaled to size 10.0pt on input line 403.
 \AtBeginShipoutBox=\box89
-Package hyperref Info: Link coloring OFF on input line 382.
+Package hyperref Info: Link coloring OFF on input line 403.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1293,9 +1293,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count163
 )
-LaTeX Info: Redefining \ref on input line 382.
-LaTeX Info: Redefining \pageref on input line 382.
-LaTeX Info: Redefining \nameref on input line 382.
+LaTeX Info: Redefining \ref on input line 403.
+LaTeX Info: Redefining \pageref on input line 403.
+LaTeX Info: Redefining \nameref on input line 403.
 
 (./pratikkarki-resume.out) (./pratikkarki-resume.out)
 \@outlinefile=\write4
@@ -1341,14 +1341,14 @@ e
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
-* v-part:(T,H,B)=(39.83368pt, 822.28499pt, -17.07182pt)
+* v-part:(T,H,B)=(28.45274pt, 833.66592pt, -17.07182pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=540.60239pt
-* \textheight=822.28499pt
+* \textheight=833.66592pt
 * \oddsidemargin=-43.81725pt
 * \evensidemargin=-43.81725pt
-* \topmargin=-69.43631pt
+* \topmargin=-80.81725pt
 * \headheight=-4.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -1368,148 +1368,118 @@ e
 
 ABD: EveryShipout initializing macros
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 29.86pt on input line 402.
+(Font)              scaled to size 29.86pt on input line 423.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/sc' will be
-(Font)              scaled to size 29.86pt on input line 402.
+(Font)              scaled to size 29.86pt on input line 423.
 
-Overfull \hbox (141.1506pt too wide) in paragraph at lines 401--403
+Overfull \hbox (141.1506pt too wide) in paragraph at lines 422--424
 [] [][][][][][] 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 416.
+(Font)              <7> on input line 437.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 416.
+(Font)              <5> on input line 437.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 416.
+(Font)              scaled to size 12.0pt on input line 437.
 LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
-line 416.
+line 437.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 416.
+(Font)              <12> on input line 437.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 416.
+(Font)              <8> on input line 437.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 416.
+(Font)              <6> on input line 437.
 
-Underfull \hbox (badness 10000) in alignment at lines 416--416
+Underfull \hbox (badness 10000) in alignment at lines 437--437
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 416--420
+Underfull \hbox (badness 10000) in paragraph at lines 437--441
 
  []
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 441.
+(Font)              scaled to size 10.0pt on input line 462.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 441--442
+Overfull \hbox (6.0pt too wide) in paragraph at lines 462--463
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 441--442
+Underfull \hbox (badness 10000) in paragraph at lines 462--463
 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 448--448
+Underfull \hbox (badness 10000) in alignment at lines 469--469
 [][][] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 448--448
+Underfull \hbox (badness 10000) in alignment at lines 469--469
 [][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 461--462
+Overfull \hbox (6.0pt too wide) in paragraph at lines 482--483
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--462
+Underfull \hbox (badness 10000) in paragraph at lines 482--483
 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 464--464
+Underfull \hbox (badness 10000) in alignment at lines 485--485
 [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 467.
+(Font)              scaled to size 7.0pt on input line 488.
 
-Underfull \hbox (badness 10000) in alignment at lines 467--467
+Underfull \hbox (badness 10000) in alignment at lines 488--488
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 470--470
+Underfull \hbox (badness 10000) in alignment at lines 491--491
 [][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 478--479
+Overfull \hbox (6.0pt too wide) in paragraph at lines 499--500
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 478--479
+Underfull \hbox (badness 10000) in paragraph at lines 499--500
 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 486--486
+Underfull \hbox (badness 10000) in alignment at lines 507--507
 [][][] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 486--486
+Underfull \hbox (badness 10000) in alignment at lines 507--507
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 492--492
+Underfull \hbox (badness 10000) in alignment at lines 513--513
 [][][] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 492--492
+Underfull \hbox (badness 10000) in alignment at lines 513--513
 [][] 
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 498--498
-[][][] 
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 498--498
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 509--509
-[][][] 
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 509--509
-[][] 
- []
-
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 515--516
-[][][][][][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 515--516
-
  []
 
 
@@ -1523,14 +1493,12 @@ Underfull \hbox (badness 10000) in alignment at lines 519--519
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 526--526
+Underfull \hbox (badness 10000) in alignment at lines 530--530
 [][][] 
  []
 
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 526.
 
-Underfull \hbox (badness 10000) in alignment at lines 526--526
+Underfull \hbox (badness 10000) in alignment at lines 530--530
 [][] 
  []
 
@@ -1545,33 +1513,65 @@ Underfull \hbox (badness 10000) in paragraph at lines 536--537
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 542--542
+Underfull \hbox (badness 10000) in alignment at lines 544--544
+[][][] 
+ []
+
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/it' will be
+(Font)              scaled to size 10.0pt on input line 544.
+
+Underfull \hbox (badness 10000) in alignment at lines 544--544
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 547--547
+Underfull \hbox (badness 10000) in alignment at lines 551--551
+[][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 551--551
+[][] 
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 561--562
+[][][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 561--562
+
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 567--567
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 572--572
 [][] 
  []
 
 LaTeX Font Info:    Try loading font information for OMS+Raleway-TLF on input l
-ine 562.
-LaTeX Font Info:    No file OMSRaleway-TLF.fd. on input line 562.
+ine 587.
+LaTeX Font Info:    No file OMSRaleway-TLF.fd. on input line 587.
 
 LaTeX Font Warning: Font shape `OMS/Raleway-TLF/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead on input line 562.
+(Font)              using `OMS/cmsy/m/n' instead on input line 587.
 
 
-Overfull \hbox (357.38824pt too wide) in paragraph at lines 562--565
+Overfull \hbox (357.38824pt too wide) in paragraph at lines 587--590
 [] [][][][][][] 
  []
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/sl' in size <10> not available
 
 (Font)              Font shape `T1/Raleway-TLF/m/it' tried instead on input lin
-e 578.
+e 603.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 578.
+(Font)              scaled to size 10.0pt on input line 603.
 
 Package Fancyhdr Warning: \headheight is too small (-4.0pt): 
  Make it at least 12.0pt.
@@ -1584,12 +1584,12 @@ Overfull \vbox (4.0pt too high) has occurred while \output is active []
  [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 578.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 578.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 603.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 603.
 
 (./pratikkarki-resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 578.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 578.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 603.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 603.
 Package rerunfilecheck Info: File `pratikkarki-resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1598,10 +1598,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 22088 strings out of 492995
- 426645 string characters out of 6132704
- 558039 words of memory out of 5000000
- 25203 multiletter control sequences out of 15000+600000
+ 22089 strings out of 492995
+ 426661 string characters out of 6132704
+ 559511 words of memory out of 5000000
+ 25204 multiletter control sequences out of 15000+600000
  102924 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,11n,69p,1000b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1615,10 +1615,10 @@ lic.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/impallari/raleway/Ralew
 ay-Regular.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmsy10.pfb>
-Output written on pratikkarki-resume.pdf (1 page, 92572 bytes).
+Output written on pratikkarki-resume.pdf (1 page, 93546 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 56 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
