@@ -14,6 +14,10 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
+		<audio id="myAudio">
+			<source src="file/name-audio.m4a" type="audio/mp3">
+			Your browser does not support the audio element.
+		</audio>
 
 		<!-- Wrapper-->
 			<div id="wrapper">
@@ -31,7 +35,7 @@
 						<!-- Me -->
 							<article id="home" class="panel intro">
 								<header>
-									<h1>Pratik Karki</h1>
+									<h1>Pratik Karki <i onclick="playAudio()" class="fa fa-volume-up" style="font-size: 26px;"></i></h1>
 									<p>Software Engineer | Guitarist | Animal Fosterer</p>
 									
 									<small style="color:black"> Please read my <a href="#blog"><strong>blog!</strong></a> </small>
@@ -433,11 +437,18 @@
 			</div>
 
 		<!-- Scripts -->
+			<script>
+				var x = document.getElementById("myAudio"); 
+				function playAudio() { 
+					x.play(); 
+				} 
+			</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			
 
 	</body>
 </html>
